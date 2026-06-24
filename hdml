@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EOFY 체크리스트 2026 | Solomons</title>
+  <meta name="description" content="2026년 6월 EOFY 체크리스트. 회계연도 마감 전 개인과 사업자가 확인할 항목을 정리한 자료입니다.">
+  <meta property="og:title" content="EOFY 체크리스트 2026">
+  <meta property="og:description" content="6월 30일 전 꼭 챙겨야 할 EOFY 체크리스트">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="pages/page-1.png">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #18212d;
+      --muted: #66717f;
+      --line: #dfe4ea;
+      --paper: #f4f6f8;
+      --accent: #c9a75f;
+      --accent-dark: #987835;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+      line-height: 1.5;
+      color: var(--ink);
+      background: var(--paper);
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid rgba(24, 33, 45, 0.12);
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(16px);
+    }
+
+    .topbar-inner {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      min-width: 0;
+    }
+
+    .brand strong {
+      display: block;
+      font-size: clamp(1rem, 2.8vw, 1.2rem);
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    .brand span {
+      display: block;
+      margin-top: 2px;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex: 0 0 auto;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 40px;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 0 14px;
+      color: var(--ink);
+      background: var(--white);
+      font-size: 0.92rem;
+      font-weight: 650;
+      text-decoration: none;
+      white-space: nowrap;
+    }
