@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EOFY 체크리스트 2026 | Solomons</title>
+  <meta name="description" content="2026년 6월 EOFY 체크리스트. 회계연도 마감 전 개인과 사업자가 확인할 항목을 정리한 자료입니다.">
+  <meta property="og:title" content="EOFY 체크리스트 2026">
+  <meta property="og:description" content="6월 30일 전 꼭 챙겨야 할 EOFY 체크리스트">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="pages/page-1.png">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #18212d;
+      --muted: #66717f;
+      --line: #dfe4ea;
+      --paper: #f4f6f8;
+      --accent: #c9a75f;
+      --accent-dark: #987835;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+      line-height: 1.5;
+      color: var(--ink);
+      background: var(--paper);
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid rgba(24, 33, 45, 0.12);
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(16px);
+    }
+
+    .topbar-inner {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      min-width: 0;
+    }
+
+    .brand strong {
+      display: block;
+      font-size: clamp(1rem, 2.8vw, 1.2rem);
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    .brand span {
+      display: block;
+      margin-top: 2px;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex: 0 0 auto;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 40px;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 0 14px;
+      color: var(--ink);
+      background: var(--white);
+      font-size: 0.92rem;
+      font-weight: 650;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .button.primary {
+      border-color: var(--accent);
+      color: #1f1a10;
+      background: var(--accent);
+    }
+
+    .button:focus-visible {
+      outline: 3px solid rgba(201, 167, 95, 0.38);
+      outline-offset: 2px;
+    }
+
+    main {
+      width: min(1120px, calc(100% - 24px));
+      margin: 0 auto;
+      padding: 24px 0 56px;
+    }
+
+    .intro {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 14px 4px 22px;
+    }
+
+    .intro h1 {
+      margin: 0;
+      font-size: clamp(1.35rem, 4.8vw, 2.6rem);
+      line-height: 1.18;
+      letter-spacing: 0;
+    }
+
+    .intro p {
+      max-width: 520px;
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: clamp(0.95rem, 2vw, 1.05rem);
+    }
+
+    .meta {
+      flex: 0 0 auto;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: right;
+    }
+
+    .pages {
+      display: grid;
+      gap: 18px;
+    }
+
+    .page {
+      margin: 0;
+      border: 1px solid rgba(24, 33, 45, 0.1);
+      border-radius: 6px;
+      overflow: hidden;
+      background: var(--white);
+      box-shadow: 0 14px 34px rgba(24, 33, 45, 0.12);
+    }
+
+    .page img {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: var(--white);
+    }
+
+    .page figcaption {
+      border-top: 1px solid var(--line);
+      padding: 10px 14px;
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    .footer {
+      padding: 26px 4px 0;
+      color: var(--muted);
+      font-size: 0.88rem;
+      text-align: center;
+    }
+
+    @media (max-width: 720px) {
+      .topbar-inner {
+        width: min(100% - 24px, 1120px);
+        min-height: auto;
+        padding: 12px 0;
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .actions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .button {
+        width: 100%;
+        padding: 0 10px;
+        font-size: 0.88rem;
+      }
+
+      main {
+        width: min(100% - 16px, 1120px);
+        padding-top: 16px;
+      }
+
+      .intro {
+        align-items: start;
+        flex-direction: column;
+        padding: 8px 2px 18px;
+      }
+
+      .meta {
+        text-align: left;
+      }
+
+      .pages {
+        gap: 12px;
+      }
+    }
+
+    @media print {
+      .topbar,
+      .intro,
+      .footer,
+      .page figcaption {
+        display: none;
+      }
+
+      body {
+        background: white;
+      }
+
+      main {
+        width: 100%;
+        padding: 0;
+      }
+
+      .pages {
+        gap: 0;
+      }
+
+      .page {
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+        break-after: page;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <strong>EOFY 체크리스트 2026</strong>
+        <span>SOLOMONS TV · 솔로몬스 택스이야기</span>
+      </div>
+      <nav class="actions" aria-label="문서 작업">
+        <a class="button" href="#document">문서 보기</a>
+        <a class="button primary" href="EOFY_Checklist_2026.pdf" download>PDF 다운로드</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="title">
+      <div>
+        <h1 id="title">6월 30일 전, 꼭 챙겨야 할 EOFY 체크리스트</h1>
+        <p>회계연도 마감 전 개인과 사업자가 확인할 항목을 한눈에 볼 수 있도록 정리한 자료입니다.</p>
+      </div>
+      <div class="meta">2026년 6월 · 6 pages</div>
+    </section>
+
+    <section class="pages" id="document" aria-label="EOFY 체크리스트 문서 페이지">
+      <figure class="page">
+        <img src="pages/page-1.png" alt="EOFY 체크리스트 2026 표지" loading="eager">
+        <figcaption>Page 1</figcaption>
+      </figure>
+      <figure class="page">
+        <img src="pages/page-2.png" alt="EOFY 체크리스트 안내와 목차" loading="lazy">
+        <figcaption>Page 2</figcaption>
+      </figure>
+      <figure class="page">
+        <img src="pages/page-3.png" alt="개인 및 직장인용 EOFY 점검 항목" loading="lazy">
+        <figcaption>Page 3</figcaption>
+      </figure>
+      <figure class="page">
+        <img src="pages/page-4.png" alt="사업자용 EOFY 점검 항목" loading="lazy">
+        <figcaption>Page 4</figcaption>
+      </figure>
+      <figure class="page">
+        <img src="pages/page-5.png" alt="사업자 추가 점검 및 공통 마무리 항목" loading="lazy">
+        <figcaption>Page 5</figcaption>
+      </figure>
+      <figure class="page">
+        <img src="pages/page-6.png" alt="EOFY 상담 전 준비 및 마무리 안내" loading="lazy">
+        <figcaption>Page 6</figcaption>
+      </figure>
+    </section>
+
+    <p class="footer">본 자료는 일반 정보입니다. 실제 적용 여부는 개별 상황에 따라 확인이 필요합니다.</p>
+  </main>
+</body>
+</html>
